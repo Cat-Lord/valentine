@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Zeyada');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Zeyada';
+}
+
+#container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#title {
+  font-size: 85px;
+  margin: 10px;
+}
+
+#subtitle {
+  font-size: 45px;
+  margin: 5px;
+}

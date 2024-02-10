@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Zeyada');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Zeyada';
+}
+
+#title {
+  font-size: 69px;
+  margin: 0;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#controls-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#controls {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  gap: 100px;
+  padding: 80px 25px;
+}
+
+button {
+  font-size: 18px;
+}
+
+#yesAction {
+  display: inline-block;
+  background-color: rgb(14, 174, 14);
+  border: none;
+  padding: 15px 25px;
+  border-radius: 8.5%;
+}
+
+#yesAction:hover {
+  background-color: rgb(45, 236, 45);
+}
+
+#noAction {
+  display: inline-block;
+  background-color: red;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 8.5%;
+  transition: width 0.5s;
+  transition-property: transform;
+}
+
+#noAction:hover {
+  background-color: rgb(232, 140, 140);
+  transform: scale(0.1, 0.1);
+  border: none;
+}
